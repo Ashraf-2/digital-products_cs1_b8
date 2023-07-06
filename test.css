@@ -11,3 +11,26 @@
 .id{
     color:blue;
 }
+.container{
+    display: flex;
+    /*justify-content: center;*/
+    /* justify-content: space-between; */
+    justify-content: space-around; 
+    /* justify-content: space-evenly; */
+    align-items: center;
+    flex-direction: row-reverse;
+}
+.box{
+    padding:20px;
+    background-color: red;
+    width: 120px;
+    margin: 0px;
+}
+.box2{
+    background-color: green;
+    
+}
+.box3{
+    background-color: blue;
+
+}
