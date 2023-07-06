@@ -1,0 +1,3 @@
+*use flex
+to use flex you need to use div class
+flex is used to show different tags in-line alongside.
