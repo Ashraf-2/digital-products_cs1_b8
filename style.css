@@ -37,10 +37,13 @@
     /* background-color: rgb(75, 66, 118); */
     display: flex;
     justify-content: space-around;
-    color: white;
     align-items: center;
+    color: white;
     background-image: url("./img/background.png"), linear-gradient(45deg,rgb(8, 8, 8),rgb(49, 46, 46));
-
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
 }
 
 .title{
@@ -62,4 +65,26 @@
 .btn:hover{
     cursor: pointer;
     background-color: blueviolet;
+}
+.about-container{
+    height: 80vh;
+    background-color: white;
+}
+.abt{
+    margin-top: 1rem;
+    font-size: 55px;
+    font-weight: bold;
+    text-align: center;
+}
+.about-2-side{
+    display: flex;
+    justify-content: space-around;
+    align-items: center ;
+}
+.about_img{
+    width: 300px;
+}
+.about_title{
+    font-size: 30px;
+    font-weight: bold;
 }
