@@ -88,3 +88,42 @@
     font-size: 30px;
     font-weight: bold;
 }
+.box{
+    width: 200px;
+    height: 300px;
+    box-shadow: 4px 4px 75px gray;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+}
+
+.icon{
+    width: 70px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;
+}
+.box-title{
+    padding: 10px;
+}
+.box-description{
+    padding: 5px;
+}
+.service_container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+.service-h1{
+    color: white;
+    padding: 2rem;
+}
+.service_sec{
+    background-image: url("./img/background.png"), linear-gradient(45deg,rgb(8, 8, 8),rgb(49, 46, 46));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
